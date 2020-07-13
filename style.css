@@ -124,10 +124,6 @@ body {
   height: 435.25px;
 }
 
-.content-img__img {
-  height: 100%;
-}
-
 .features__content-boxes {
   flex-direction: column;
 }
@@ -176,7 +172,7 @@ body {
   line-height: 48px;
 }
 
-/* --whatdo section-- */
+/* --what-do section-- */
 
 .what-do {
   flex-direction: column;
@@ -345,7 +341,7 @@ body {
   margin-bottom: 24px;
 }
 
-/*--kalkulate2 section--*/
+/*--how-much section--*/
 
 .how-much {
   background: #3454f5;
@@ -530,3 +526,131 @@ footer {
 .fcontainer-block {
   display: flex;
 }
+
+/*@media (max-width: 1100px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .width-container {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .nav-links {
+    margin-right: 10px;
+    font-weight: 400;
+  }
+
+  .nav-box {
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .header-main__info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-main__info-text,
+  .header-main__info-title,
+  .what-do {
+    text-align: center;
+  }
+
+  .features {
+    align-items: center;
+  }
+  .content-img__img,
+  .features__content-img,
+  .kalkulate__img,
+  .case-img,
+  .technology,
+  .header-main__img-box,
+  .nav-button,
+  .nav-logo,
+  .header-nav__logo,
+  .team__img,
+  .dop-info,
+  .what-do__box-img,
+  footer,
+  .footer,
+  .footer-container,
+  .footer-container-info {
+    display: none;
+  }
+
+  .banner__content {
+    max-width: 100%;
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .how-much__offer {
+    margin-bottom: 20px;
+    flex-direction: column;
+    max-width: 495px;
+    align-items: center;
+  }
+  .how-much__offer-input {
+    margin-bottom: 20px;
+  }
+  .how-much__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .how-much__content {
+    flex-direction: column;
+  }
+
+  .case {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .team-info {
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .what-do-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .offer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .our-cases {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .team-info__text {
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+  .box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .case-info {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+*/
