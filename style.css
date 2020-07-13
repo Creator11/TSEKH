@@ -197,7 +197,7 @@ body {
 .what-do__box-content {
   flex-direction: column;
   justify-content: center;
-  max-width: 480px;
+  max-width: 490px;
 }
 
 .box-content__title {
@@ -210,6 +210,12 @@ body {
   margin-bottom: 20px;
 }
 
+.box-content__text-icon {
+  margin-right: 17px;
+}
+.box-content__text--minus {
+  color: #e46868;
+}
 /* --kalkulate section-- */
 
 .kalkulate {
