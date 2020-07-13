@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>KT-Team</title>
+    <title>TSEKH</title>
   </head>
   <body>
     <header>
@@ -14,14 +14,14 @@
         /></a>
 
         <div class="nav-box flex">
-          <a class="nav-links">Студия</a>
-          <a href="#features" class="nav-links">горячий Цех</a>
-          <a class="nav-links">Проекты</a>
-          <a class="nav-links">Тариф</a>
-          <a class="nav-links">Блог</a>
-          <a class="nav-links">Работа у нас</a>
+          <a href="#" class="nav-links">Студия</a>
+          <a href="#" class="nav-links">горячий Цех</a>
+          <a href="https://tsekh.design/all-cases" class="nav-links">Проекты</a>
+          <a href="#" class="nav-links">Тариф</a>
+          <a href="https://tsekh.design/blog" class="nav-links">Блог</a>
+          <a href="https://kt.team/hr" class="nav-links">Работа у нас</a>
         </div>
-        <button class="nav-button">рассчитать Проект</button>
+        <button class="nav-button">Рассчитать проект</button>
       </div>
 
       <section class="header-main">
@@ -37,7 +37,7 @@
             </button>
           </div>
           <div class="header-main__img-box">
-            <img class="img" src="img/header__main-img.png" alt="" />
+            <img class="img" src="img/header__main-img.png" alt="komputer" />
           </div>
         </div>
       </section>
@@ -67,7 +67,7 @@
 
           <div class="features__content-boxes flex">
             <div class="box">
-              <img class="box-img" src="img/box-img__icon-4.svg" alt="" />
+              <img class="box-img" src="img/box-img__icon-4.svg" alt="icon" />
               <h3 class="box-title">Конструктора недостаточно</h3>
               <p class="box-content">
                 Вам нужен индивидуальный сайт или каталог. Базовых возможностей
@@ -76,7 +76,7 @@
               </p>
             </div>
             <div class="box">
-              <img class="box-img" src="img/box-img__icon-3.svg" alt="" />
+              <img class="box-img" src="img/box-img__icon-3.svg" alt="icon" />
               <h3 class="box-title">Небольшой объём работ</h3>
               <p class="box-content">
                 Вам не нужна постоянная поддержка или масштабная разработка.
@@ -84,7 +84,7 @@
               </p>
             </div>
             <div class="box">
-              <img class="box-img" src="img/box-img__icon-2.png" alt="" />
+              <img class="box-img" src="img/box-img__icon-2.png" alt="icon" />
               <h3 class="box-title">Дёшево — значит «некачественно»</h3>
               <p class="box-content">
                 У вас уже был опыт работы с «недорогими разработчиками», и
@@ -93,7 +93,7 @@
               </p>
             </div>
             <div class="box">
-              <img class="box-img" src="img/box-img__icon-1.svg" alt="" />
+              <img class="box-img" src="img/box-img__icon-1.svg" alt="icon" />
               <h3 class="box-title">Бюджет ограничен</h3>
               <p class="box-content">
                 Ваш бюджет на корпоративный портал или каталог меньше, чем
@@ -106,15 +106,15 @@
       </section>
       <section class="banner flex">
         <div class="banner-container width-container">
-          <img class="banner__logo" src="img/logo2.svg" alt="logo" />
-          <p class="banner__content">
+          <img class="banner__logo" src="img/logo-white.svg" alt="logo" />
+          <h2 class="banner__content">
             Доступная разработка TSEKH.design – выход для малого бизнеса,
             который готов развиваться.
-          </p>
+          </h2>
         </div>
       </section>
 
-      <section class="what-do flex width-container">
+      <section id="what-do" class="what-do flex width-container">
         <h2 class="what-do__title title">
           Что мы делаем в <br />рамках доступной<br />
           разработки?
@@ -124,7 +124,7 @@
             <img
               class="what-do__box-img"
               src="img/what-do__box-img--1.svg"
-              alt=""
+              alt="card-img"
             />
             <div class="what-do__box-content flex">
               <h3 class="box-content__title">Корпоративные порталы</h3>
@@ -147,7 +147,7 @@
             <img
               class="what-do__box-img"
               src="img/what-do__box-img--2.svg"
-              alt=""
+              alt="card-img"
             />
             <div class="what-do__box-content">
               <h3 class="box-content__title">Каталоги товаров</h3>
@@ -169,7 +169,7 @@
             <img
               class="what-do__box-img"
               src="img/what-do__box-img--3.svg"
-              alt=""
+              alt="card-img"
             />
             <div class="what-do__box-content">
               <h3 class="box-content__title">Корпоративные порталы</h3>
@@ -189,12 +189,16 @@
           </div>
         </div>
 
-        <div class="kalkulate width-container flex">
-          <img class="kalkulate__img" src="img/kalkulate__img.png" alt="" />
+        <div id="kalkulate" class="kalkulate width-container flex">
+          <img
+            class="kalkulate__img"
+            src="img/kalkulate__img.png"
+            alt="komputer"
+          />
           <div class="kalkulate-offer">
-            <div class="offer-title">
-              <p class="offer-title__title">Заказать рассчет проекта</p>
-              <p class="offer-title__subtitle text">
+            <div class="offer-head">
+              <p class="offer-head__title">Заказать рассчет проекта</p>
+              <p class="offer-head__subtitle text">
                 Опишите цели проекта, задачи и нужный стек разработки, если это
                 важно. Мы рассчитаем примерную стоимость в пределах одного дня
               </p>
@@ -204,15 +208,13 @@
                 class="offer-name"
                 placeholder="Имя"
                 type="text"
-                name=""
-                id=""
+                name="offer-name"
               />
               <input
                 class="offer-number"
                 placeholder="Номер Телефона"
                 type="text"
-                name=""
-                id=""
+                name="offer-number"
               />
               <button class="offer-start">Заказать рассчет</button>
               <p class="offer-info">
@@ -230,155 +232,170 @@
             Стек Технологий
           </h2>
           <div class="stek-img">
-            <img class="stek-img__img" src="img/vue.png" alt="" />
-            <img class="stek-img__img" src="img/djan.png" alt="" />
-            <img class="stek-img__img" src="img/elastic.jpg" alt="" />
+            <img class="stek-img__img" src="img/vue.png" alt="vue" />
+            <img class="stek-img__img" src="img/djan.png" alt="djan" />
+            <img class="stek-img__img" src="img/elastic.jpg" alt="elastic" />
           </div>
         </div>
       </section>
 
-      <section class="kases width-container">
-        <h2 class="kases-title title">Кейсы</h2>
-        <div class="kases-boxes">
-          <div class="kase flex">
-            <img
-              class="kase-img"
-              src="img/kase_project-1.png"
-              alt=""
-              class="kaseimg"
-            />
-            <div class="kase-info flex">
-              <p class="kase-info__title">
+      <section id="cases" class="our-cases width-container">
+        <h2 class="our-cases__title title">Кейсы</h2>
+        <div class="our-cases__container">
+          <div class="case flex">
+            <a href="https://www.behance.net/gallery/68128131/SnowQueen-APP"
+              ><img
+                class="case-img"
+                src="img/kase_project-1.png"
+                alt="progect-1"
+            /></a>
+            <div class="case-info flex">
+              <h3 class="case-info__title">
                 Интернет-магазин для Снежной Королевы
-              </p>
-              <div class="kase-info__subinfo flex">
-                <div class="subinfo-number">
-                  <p class="subinfo-number__number text">+ 47%</p>
-                  <p class="subinfo-number__number text">+ 1,8%</p>
-                  <p class="subinfo-number__number text">+ 11%</p>
+              </h3>
+              <div class="case-info__subinfo flex">
+                <div class="subinfo-numbers">
+                  <p class="subinfo-numbers__number text">+ 47%</p>
+                  <p class="subinfo-numbers__number text">+ 1,8%</p>
+                  <p class="subinfo-numbers__number text">+ 11%</p>
                 </div>
-                <div class="subinfo-text">
-                  <p class="subinfo-text__text">
+                <div class="subinfo-container">
+                  <p class="subinfo-text">
                     К конверсии в первый месяц по сравнению с моб. версией
                   </p>
-                  <p class="subinfo-text__text">
+                  <p class="subinfo-text">
                     Прирост мужской аудитории за 2018–2019 гг.
                   </p>
-                  <p class="subinfo-text__text">
+                  <p class="subinfo-text">
                     Увеличение среднего чека (все когорты пользователей)
                   </p>
                 </div>
               </div>
-              <img class="kase-logo" src="img/kase-logo.svg" alt="" />
+              <a href="https://www.behance.net/gallery/68128131/SnowQueen-APP"
+                ><img class="case-logo" src="img/kase-logo.svg" alt="logo"
+              /></a>
             </div>
           </div>
-          <div class="kase flex">
-            <img
-              class="kase-img"
-              src="img/kase_project-2.png"
-              alt=""
-              class="kaseimg"
-            />
-            <div class="kase-info flex">
-              <p class="kase-info__title">
+          <div class="case flex">
+            <a
+              href="https://www.behance.net/gallery/83010389/E-Commerce-project-of-fine-spirits"
+            >
+              <img
+                class="case-img"
+                src="img/kase_project-2.png"
+                alt="project-2"
+            /></a>
+            <div class="case-info flex">
+              <h3 class="case-info__title">
                 Интернет магазин для Maximum
-              </p>
-              <div class="kase-info__subinfo flex">
-                <div class="subinfo-number">
-                  <p class="subinfo-number__number text">217+</p>
-                  <p class="subinfo-number__number text">2020</p>
-                  <p class="subinfo-number__number text">0.1 сек</p>
+              </h3>
+              <div class="case-info__subinfo flex">
+                <div class="subinfo-numbers">
+                  <p class="subinfo-numbers__number text">217+</p>
+                  <p class="subinfo-numbers__number text">2020</p>
+                  <p class="subinfo-numbers__number text">0.1 сек</p>
                 </div>
-                <div class="subinfo-text">
-                  <p class="subinfo-text__text">
+                <div class="subinfo-container">
+                  <p class="subinfo-text">
                     Дизайн макетов, детально-проработанных сценариев
                   </p>
-                  <p class="subinfo-text__text">
+                  <p class="subinfo-text">
                     Запуск первого алкогольного e-Commerce в России
                   </p>
-                  <p class="subinfo-text__text">
+                  <p class="subinfo-text">
                     Скорость загрузки страниц: самый быстрый фронтенд
                   </p>
                 </div>
               </div>
-              <img class="kase-logo" src="img/kase__maximum-logo.svg" alt="" />
+              <a
+                href="https://www.behance.net/gallery/83010389/E-Commerce-project-of-fine-spirits"
+                ><img
+                  class="case-logo"
+                  src="img/kase__maximum-logo.svg"
+                  alt="logo"
+              /></a>
             </div>
           </div>
 
-          <div class="kase flex">
-            <img
-              class="kase-img"
-              src="img/kase_project-3.png"
-              alt=""
-              class="kaseimg"
-            />
-            <div class="kase-info flex">
-              <p class="kase-info__title">
+          <div class="case flex">
+            <a href="https://tsekh.design/cases/mobiapp#home"
+              ><img
+                class="case-img"
+                src="img/kase_project-3.png"
+                alt="project-3"
+            /></a>
+            <div class="case-info flex">
+              <h3 class="case-info__title">
                 Логотип MobiApp
-              </p>
-              <div class="kase-info__subinfo flex">
-                <div class="subinfo-number">
-                  <p class="subinfo-number__number text">+20%</p>
-                  <p class="subinfo-number__number text">5</p>
-                  <p class="subinfo-number__number text">+33%</p>
+              </h3>
+              <div class="case-info__subinfo flex">
+                <div class="subinfo-numbers">
+                  <p class="subinfo-numbers__number text">+20%</p>
+                  <p class="subinfo-numbers__number text">5</p>
+                  <p class="subinfo-numbers__number text">+33%</p>
                 </div>
-                <div class="subinfo-text">
-                  <p class="subinfo-text__text">
+                <div class="subinfo-container">
+                  <p class="subinfo-text">
                     Целевое увеличение конверсии на тестах
                   </p>
-                  <p class="subinfo-text__text">
+                  <p class="subinfo-text">
                     Кликов до целевого действия: сократили сценарий в два раза
                   </p>
-                  <p class="subinfo-text__text">
+                  <p class="subinfo-text">
                     Увеличение среднего чека
                   </p>
                 </div>
               </div>
-              <img class="kase-logo" src="img/kase__mobiApp-logo.svg" alt="" />
+              <a href="https://tsekh.design/cases/mobiapp#home"
+                ><img
+                  class="case-logo"
+                  src="img/kase__mobiApp-logo.svg"
+                  alt="progect-3"
+              /></a>
             </div>
           </div>
         </div>
       </section>
-      <section class="kalkulate2 flex">
-        <div class="kalkulate-box width-container">
-          <h2 class="kalkulate-title title">
+      <section class="how-much flex">
+        <div class="how-much__container width-container">
+          <h2 class="how-much__title title">
             Сколько стоит доступная разработка?
           </h2>
-          <div class="kalkulate2-time flex">
-            <p class="time-text text">
+          <div class="how-much__content flex">
+            <p class="how-much__content-text text">
               Мы работаем по time and materials <br />
               с фиксированной стоимостью часа.
             </p>
-            <span class="time-money">1 190 ₽</span>
-            <p class="time-text text">в час</p>
+            <span class="how-much__content-money">1 190 ₽</span>
+            <p class="how-much__content-text text">в час</p>
           </div>
-          <div class="kalkulate2-offer flex">
+          <div class="how-much__offer flex">
             <input
-              class="time-input"
+              class="how-much__offer-input"
               placeholder="Имя"
               type="text"
-              name=""
-              id=""
+              name="time-name"
             />
             <input
-              class="time-input"
+              class="how-much__offer-input"
               placeholder="Номер Телефона"
               type="text"
-              name=""
-              id=""
+              name="time-number"
             />
-            <button class="time-button">Заказать расчет</button>
+            <button class="how-much__offer-button">Заказать расчет</button>
           </div>
-          <p class="time-subinfo">
+          <p class="how-much__subinfo">
             Нажимая кнопку "отправить", я даю согласие на обработку своих
             персональных данных
           </p>
         </div>
       </section>
 
-      <section class="team width-container">
-        <h2 class="team-title title">Кто будет работать над вашим проектом?</h2>
-        <img class="team-img" src="img/team.svg" alt="team" />
+      <section id="team" class="team width-container">
+        <h2 class="team__title title">
+          Кто будет работать над вашим проектом?
+        </h2>
+        <img class="team__img" src="img/team.svg" alt="team" />
         <div class="team-info flex">
           <p class="team-info__text text">
             Команда junior-разработчиков. Час их работы стоит дешевле, чем
@@ -386,15 +403,23 @@
             выполнения простых интеграций.
           </p>
           <div class="team-info__leader flex">
-            <img src="img/avatar.svg" alt="" />
-            <p>Курирует разработку senior-разработчик <br />Антон Копкин</p>
+            <img
+              class="team-info__leader-img"
+              src="img/team-avatar.svg"
+              alt="avatar"
+            />
+            <p class="team-info__leader-text text">
+              Курирует разработку senior-разработчик <br />Антон Копкин
+            </p>
           </div>
         </div>
       </section>
 
       <section class="dop-info width-container">
-        <div class="dop-info__title">
-          <h2 class="title">Если вам нужна не только разработка</h2>
+        <div class="dop-info__title-box">
+          <h2 class="dop-info__title title">
+            Если вам нужна не только разработка
+          </h2>
           <p class="text">Команда TSEKH.design возьмёт на себя:</p>
         </div>
 
@@ -402,38 +427,46 @@
           <div class="dop-info__box">
             <h3 class="dop-info__box-title text">Графический дизайн</h3>
             <div class="dop-info__teg flex">
-              <div class="teg">илюстрации</div>
-              <div class="teg">презентации</div>
-              <div class="teg">открытки</div>
-              <div class="teg">рекламные баннеры</div>
-              <div class="teg">памятки</div>
-              <div class="teg">плакаты</div>
+              <span class="teg">илюстрации</span>
+              <span class="teg">презентации</span>
+              <span class="teg">открытки</span>
+              <span class="teg">рекламные баннеры</span>
+              <span class="teg">памятки</span>
+              <span class="teg">плакаты</span>
             </div>
-            <img class="dop-infos" src="img/lastbg.svg" alt="" />
+            <img
+              class="dop-info__img"
+              src="img/dop-info__img--book.png"
+              alt=""
+            />
           </div>
           <div class="dop-info__box">
-            <h3 class="dop-info__box-title">Графический дизайн</h3>
+            <h3 class="dop-info__box-title">Веб-дизайн</h3>
             <div class="dop-info__teg flex">
-              <div class="teg">илюстрации</div>
-              <div class="teg">презентации</div>
-              <div class="teg">открытки</div>
-              <div class="teg">рекламные баннеры</div>
-              <div class="teg">памятки</div>
-              <div class="teg">плакаты</div>
+              <span class="teg">Лендинги</span>
+              <span class="teg">Многостраничные сайты</span>
+              <span class="teg">Интернет-магазины</span>
             </div>
-            <img class="dop-infos" src="img/lastbg.svg" alt="" />
+            <img
+              class="dop-info__img"
+              src="img/dop-info__img--imac.png"
+              alt=""
+            />
           </div>
           <div class="dop-info__box">
-            <h3 class="dop-info__box-title">Графический дизайн</h3>
+            <h3 class="dop-info__box-title">Дополнительные услуги</h3>
             <div class="dop-info__teg flex">
-              <div class="teg">илюстрации</div>
-              <div class="teg">презентации</div>
-              <div class="teg">открытки</div>
-              <div class="teg">рекламные баннеры</div>
-              <div class="teg">памятки</div>
-              <div class="teg">плакаты</div>
+              <span class="teg">Маркетинг</span>
+              <span class="teg">Аналитика</span>
+              <span class="teg">Корректура</span>
+              <span class="teg">Верстка сайтов и лендингов</span>
+              <span class="teg">Копирайтинг</span>
             </div>
-            <img class="dop-infos" src="img/lastbg.svg" alt="" />
+            <img
+              class="dop-info__img"
+              src="img/dop-info__img--ipad.png"
+              alt=""
+            />
           </div>
         </div>
       </section>
@@ -441,18 +474,18 @@
     <footer class="flex">
       <section class="footer-container width-container flex">
         <div class="footer-container__logo">
-          <a href="#"> <img class="img" src="img/logo2.svg" alt="" /></a>
+          <a href="#"> <img class="img" src="img/logo-white.svg" alt="" /></a>
         </div>
         <div class="footer-container__info">
           <div class="fcontainer">
-            <p class="fcontainer-title text">Наши Подразделения</p>
+            <h4 class="fcontainer-title text">Наши Подразделения</h4>
             <a href="#" class="fcontainer-elem">Бизнес-презентации</a>
             <a href="#" class="fcontainer-elem">Графический дизайн</a>
             <a href="#" class="fcontainer-elem">E-Commerce</a>
             <a href="#" class="fcontainer-elem">Лендинги</a>
           </div>
           <div class="fcontainer">
-            <p class="fcontainer-title">Приходите в гости</p>
+            <h4 class="fcontainer-title">Приходите в гости</h4>
             <a href="#" class="fcontainer-elem">
               Москва:<br />
               ул. Ильинка, д. 4 (Гостиный Двор)
@@ -468,19 +501,36 @@
             </a>
           </div>
           <div class="fcontainer">
-            <p class="fcontainer-title">Всегда на связи</p>
-            <div>
-              <img src="img/footer__icon--mail.svg" alt="" />
+            <h4 class="fcontainer-title">Всегда на связи</h4>
+            <div class="fcontainer-block">
+              <img
+                class="fcontainer-icon"
+                src="img/footer__icon--mail.svg"
+                alt="icon"
+              />
               <p class="fcontainer-elem">hello@tsekh.design</p>
             </div>
-            <p class="fcontainer-elem">+7 495 369 20 29</p>
+            <div class="fcontainer-block">
+              <img
+                class="fcontainer-icon"
+                src="img/footer__icon--phone.svg"
+                alt="icon"
+              />
+              <p class="fcontainer-elem">+7 495 369 20 29</p>
+            </div>
           </div>
           <div class="fcontainer">
-            <p class="fcontainer-title">Мы в соцсетях</p>
-            <div class="footer__icon-box flex">
-              <a href="#"><img src="img/footer__icon--be.svg" alt="" /></a>
-              <a href="#"><img src="img/footer__icon--inst.svg" alt="" /></a>
-              <a href="#"><img src="img/footer__icon--fb.svg" alt="" /></a>
+            <h4 class="fcontainer-title">Мы в соцсетях</h4>
+            <div class="footer__social-box flex">
+              <a href="https://www.behance.net/tsekh"
+                ><img src="img/footer__icon--be.svg" alt=""
+              /></a>
+              <a href="https://www.instagram.com/tsekh.design/"
+                ><img src="img/footer__icon--inst.svg" alt=""
+              /></a>
+              <a href="https://www.facebook.com/kmplzt/"
+                ><img src="img/footer__icon--fb.svg" alt=""
+              /></a>
             </div>
           </div>
         </div>
